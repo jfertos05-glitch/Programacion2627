@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ejercicio2 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -10,7 +11,7 @@ public class ejercicio2 {
 
         if (num1 == num2) {
 
-            System.out.print("Los número son iguales");
+            System.out.print("Los números son iguales");
 
         } else if (num1 > num2) {
 
