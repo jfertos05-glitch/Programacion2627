@@ -11,15 +11,23 @@ public class Ejercicio7 {
         System.out.print("¿Cuantos numero quieres pedir?: ");
         int numCantidad = sc.nextInt();
 
-        for (int i = 0; i < numCantidad; i++) {
+        if (numCantidad > 0) {
 
-            numero = sc.nextInt();
-            media = media + numero;
-            contador++;
+            for (int i = 0; i < numCantidad; i++) {
+
+                numero = sc.nextInt();
+                media = media + numero;
+                contador++;
+
+            }
+
+            System.out.print("La media es " + media/contador);
+
+        } else {
+
+            System.out.println("Escribe un número mayor a cero, por favor");
 
         }
-
-        System.out.print("La media es " + media/contador);
 
     }
 }
