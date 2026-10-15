@@ -33,7 +33,7 @@ public class Ejercicio8 {
                 }
                 contador++;
             } else {
-
+                //hola
                 afirmacion = false;
                 System.out.println("El numero menor que se ha introducido es " + numeroMenor);
 
