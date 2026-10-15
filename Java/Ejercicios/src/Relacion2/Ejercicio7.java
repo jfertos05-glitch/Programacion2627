@@ -5,7 +5,7 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero;
-        int media = 0;
+        double media = 0;
         int contador = 0;
 
         System.out.print("¿Cuantos numero quieres pedir?: ");
@@ -21,7 +21,7 @@ public class Ejercicio7 {
 
             }
 
-            System.out.print("La media es " + media/contador);
+            System.out.print("La media es " +  media/contador);
 
         } else {
 

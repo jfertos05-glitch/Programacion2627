@@ -6,6 +6,8 @@ public class Ejercicio8 {
         Scanner sc = new Scanner(System.in);
         boolean afirmacion = true;
         int numero;
+        int contador = 0;
+        int numeroMenor = 0;
         String pregunta;
 
         while (afirmacion) {
@@ -21,9 +23,19 @@ public class Ejercicio8 {
 
                 afirmacion = true;
 
+                if (contador == 0) {
+
+                    numeroMenor = numero;
+                }
+
+                if (numeroMenor > numero) {
+                    numeroMenor = numero;
+                }
+                contador++;
             } else {
 
                 afirmacion = false;
+                System.out.println("El numero menor que se ha introducido es " + numeroMenor);
 
             }
 
