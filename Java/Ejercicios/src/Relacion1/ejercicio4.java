@@ -1,3 +1,5 @@
+package Relacion1;
+
 public class ejercicio4 {
     public static void main(String[] args) {
         int num = 0;
