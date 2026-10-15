@@ -38,7 +38,7 @@ public class Ejercicio8 {
                 System.out.println("El numero menor que se ha introducido es " + numeroMenor);
 
             }
-
+        //borrar
         }
 
     }
