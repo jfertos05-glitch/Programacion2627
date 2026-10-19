@@ -50,8 +50,6 @@ public class Ejercicio9 {
 
                             if (i < num1/2) {
                                 System.out.print(" + ");
-                            } else if (i == num1/2){
-                                System.out.print(" != ");
                             } else if (num1%2 != 0) {
                                 System.out.print(" != " + num1);
                             }
