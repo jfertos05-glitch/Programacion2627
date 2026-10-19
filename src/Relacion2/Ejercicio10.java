@@ -18,6 +18,6 @@ public class Ejercicio10 {
             System.out.println(" * " + i + " = " + factorial);
         }
 
-        System.out.print("El factoria de " + num + " es " + factorial);
+        System.out.print("El factorial de " + num + " es " + factorial);
     }
 }
