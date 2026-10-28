@@ -236,4 +236,6 @@ public class Varias {
 
         return num1 * (int) potencia(10, digitos(num2)) + num2;
     }
+
+
 }
