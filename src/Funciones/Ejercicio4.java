@@ -25,6 +25,5 @@ public class Ejercicio4 {
             double porcentaje = (terminaEn[i] * 100.0) / 6000;
             System.out.println("El número " + i + " a aparecido " + terminaEn[i] + " veces, esto equivale a " + porcentaje + "%");
         }
-
     }
 }
